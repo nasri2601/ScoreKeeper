@@ -5,7 +5,7 @@
  let score2 = document.querySelector('#score2');
  let cpt1=0;
  let cpt2=0;
- let defaultScore =5;
+ let defaultScore = 5;
 
 
 function scorePlayer1(){
@@ -29,7 +29,8 @@ function scorePlayer2(){
             }
 
 function clearScore(){
-
+            score1.classList.remove('winner')
+            score2.classList.remove("winner")
             cpt1=0;
             cpt2=0;
             score1.innerText = "0";

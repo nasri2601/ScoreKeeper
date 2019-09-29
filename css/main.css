@@ -1,3 +1,31 @@
+
+body{
+    
+}
 .winner{
     color: green;
+}
+
+span
+{
+    padding-top: 10%;
+    margin-left: 7%;
+   font-size: 5rem;
+}
+
+
+
+button{
+   
+    height: 10vh;
+    width: 30vw;
+    margin-left: 6%;
+    margin-bottom: 10%;
+}
+
+
+.clear{
+    height: 5vh;
+    margin-top: 5%;
+    margin-left: 30%;
 }
