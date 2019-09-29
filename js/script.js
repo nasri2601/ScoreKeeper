@@ -12,6 +12,9 @@ function scorePlayer1(){
             if(cpt1 < defaultScore && cpt2 < defaultScore){
             cpt1++;
             score1.innerText = cpt1;}
+    if(cpt1 === defaultScore){
+        score1.classList.add('winner')
+    }
         }
 
 
@@ -19,6 +22,10 @@ function scorePlayer2(){
             if(cpt2 < defaultScore && cpt1 < defaultScore){
             cpt2++;
             score2.innerText = cpt2;}
+
+        if(cpt2 === defaultScore){
+            score2.classList.add('winner')
+        }
             }
 
 function clearScore(){
