@@ -3,6 +3,7 @@
  let clear = document.querySelector('#clear');
  let score1 = document.querySelector('#score1');
  let score2 = document.querySelector('#score2');
+ let inputScore = document.querySelector("input");
  let cpt1=0;
  let cpt2=0;
  let defaultScore = 5;
@@ -36,6 +37,10 @@ function clearScore(){
             score1.innerText = "0";
             score2.innerText = "0";
                 }
+
+
+
+
 
 clear.addEventListener('click', clearScore)
 player1.addEventListener('click', scorePlayer1)
