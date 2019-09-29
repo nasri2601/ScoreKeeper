@@ -13,3 +13,10 @@
             cpt1++;
             score1.innerText = cpt1;}
         }
+
+
+function scorePlayer2(){
+            if(cpt2 < defaultScore && cpt1 < defaultScore){
+            cpt2++;
+            score2.innerText = cpt2;}
+            }
