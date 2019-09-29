@@ -22,9 +22,13 @@ function scorePlayer2(){
             }
 
 function clearScore(){
-    
+
             cpt1=0;
             cpt2=0;
             score1.innerText = "0";
             score2.innerText = "0";
                 }
+
+clear.addEventListener('click', clearScore)
+player1.addEventListener('click', scorePlayer1)
+player2.addEventListener('click', scorePlayer2)
