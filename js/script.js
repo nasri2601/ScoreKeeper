@@ -8,7 +8,7 @@
  let defaultScore =5;
 
 
-  function scorePlayer1(){
+function scorePlayer1(){
             if(cpt1 < defaultScore && cpt2 < defaultScore){
             cpt1++;
             score1.innerText = cpt1;}
@@ -20,3 +20,11 @@ function scorePlayer2(){
             cpt2++;
             score2.innerText = cpt2;}
             }
+
+function clearScore(){
+    
+            cpt1=0;
+            cpt2=0;
+            score1.innerText = "0";
+            score2.innerText = "0";
+                }
