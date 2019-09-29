@@ -6,3 +6,10 @@
  let cpt1=0;
  let cpt2=0;
  let defaultScore =5;
+
+
+  function scorePlayer1(){
+            if(cpt1 < defaultScore && cpt2 < defaultScore){
+            cpt1++;
+            score1.innerText = cpt1;}
+        }
